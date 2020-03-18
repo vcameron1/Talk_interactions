@@ -1,7 +1,7 @@
 ---
 title: "GSFE01"
-author: "Victor Cameron"
-date: "2020/04"
+author: "Guillaume Blanchet & Steve Vissault"
+date: "2018/02/16"
 output:
   xaringan::moon_reader:
     css: [default, pr.css, pr-fonts.css, "hygge"]
@@ -16,13 +16,13 @@ output:
 
 class: title-slide, middle
 
-<img src="img/pr.png" width="80px" style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
-<img src="img/UdeS_blanc.png" width="350px" ></img>
+<img src="assets/img/pr.png" width="80px" style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
+<img src="assets/img/UdeS_blanc.png" width="350px" ></img>
 
 # Handling Spatial and Spatio-temporal data Using R
 
 .instructors[
-  Victor Cameron
+  GSFE01 - F. Guillaume Blanchet & Steve Vissault
 ]
 
 
