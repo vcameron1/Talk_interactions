@@ -1,13 +1,14 @@
 ---
-title: "GSFE01"
+title: "Séminaire1_Msc"
 author: "Victor Cameron"
 date: "2020/04"
 output:
   xaringan::moon_reader:
     css: [default, pr.css, pr-fonts.css, "hygge"]
-    lib_dir: assets
+    lib_dir: Présentation
     seal: false
     nature:
+      ratio: '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -16,15 +17,16 @@ output:
 
 class: title-slide, middle
 
-<img src="img/pr.png" width="80px" style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
-<img src="img/UdeS_blanc.png" width="350px" ></img>
-
-# Handling Spatial and Spatio-temporal data Using R
+# Aire de répartition et changements climatiques:
+## Comment les interactions biotiques affectent-elles la réponse?
 
 .instructors[
   Victor Cameron
 ]
 
+.footnote[
+<img src="assets/img/UdeS_blanc.png" width="300px" ></img>
+]
 
 ---
 
