@@ -1,14 +1,13 @@
 ---
-title: "Séminaire1_Msc"
-author: "Victor Cameron"
-date: "2020/04"
+title: "GSFE01"
+author: "Guillaume Blanchet & Steve Vissault"
+date: "2018/02/16"
 output:
   xaringan::moon_reader:
     css: [default, pr.css, pr-fonts.css, "hygge"]
-    lib_dir: Présentation
+    lib_dir: assets
     seal: false
     nature:
-      ratio: '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -17,18 +16,15 @@ output:
 
 class: title-slide, middle
 
-# Aire de répartition et changements climatiques:
-## Comment les interactions biotiques affectent-elles la réponse?
+<img src="assets/img/pr.png" width="80px" style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
+<img src="assets/img/UdeS_blanc.png" width="350px" ></img>
+
+# Handling Spatial and Spatio-temporal data Using R
 
 .instructors[
-  Victor Cameron
+  GSFE01 - F. Guillaume Blanchet & Steve Vissault
 ]
 
-.footnote[
-<img src="assets/img/UdeS_blanc.png" width="200px" 
-style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
-.white[[IE] **Laboratoire d'écologie intégrative**]
-]
 
 ---
 
@@ -37,15 +33,9 @@ style="padding-right:10px; border-right: 2px solid #FAFAFA;"></img>
 options(htmltools.dir.version = FALSE)
 ```
 
-# Aires de répartition
+# Schedule
 
-Où seront distribué les espèces dans le futur et lesquels seront co-distribuées?  
 
-- Distribution limitée
-
-Connaissance des processus qui limitent les aires de répartition est fondamental pour comprendre la re-distribution 
-
-Distributions liées aux conditions abiotiques
 
 ---
 class: inverse, center, middle
