@@ -1,13 +1,213 @@
-\documentclass{beamer}
-\usetheme{metropolis}           % Use metropolis theme
-\title{A minimal example}
-\date{\today}
-\author{Matthias Vogelgesang}
-\institute{Centre for Modern Beamer Themes}
+\documentclass[aspectratio=169]{beamer}
+\usetheme[numbering=fraction]{metropolis}           % Use metropolis theme;
+%\usepackage{FiraSans}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{xcolor}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+% Background setup
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg2}{bg2} % Declare background image
+
+\defbeamertemplate*{background canvas}{mydefault}
+  {%
+    \ifbeamercolorempty[bg]{background canvas}{}{\color{bg}\vrule width\paperwidth height\paperheight}% copied beamer default here
+  }
+  \defbeamertemplate*{background canvas}{bg}
+ {%
+   \color{mDarkTeal}\vrule width\paperwidth height\paperheight% added bg color
+ }
+
+ \defbeamertemplate*{background canvas}{image}
+{%
+    \begin{tikzpicture}
+        \useasboundingbox (0,0) rectangle (\the\paperwidth, \the\paperheight);
+        \pgftext[at=\pgfpoint{0cm}{0cm}, left, base]{\pgfuseimage{bg2}};
+    \end{tikzpicture}
+}
+
+ \BeforeBeginEnvironment{frame}{%
+   \setbeamertemplate{background canvas}[mydefault]%
+ }
+
+ \makeatletter
+ \define@key{beamerframe}{bg}[true]{%
+   \setbeamertemplate{background canvas}[bg]%
+ }
+
+ \makeatletter
+\define@key{beamerframe}{image}[true]{%
+  \setbeamercovered{invisible}%
+  \setbeamertemplate{background canvas}[image]%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% General setup
+%% Fonts and typography
+\setbeamerfont{title}{size=\huge,%
+                      series=\bfseries}
+\setbeamerfont*{subtitle}{size=\Large,%
+                          series=\bfseries}
+\setbeamerfont{author}{size=\large}
+\setbeamerfont{date}{size=\large}
+\setbeamerfont{frametitle}{size=\Large,%
+                           series=\bfseries}
+
+% color
+\setbeamercolor{titlelike}{use=palette primary, parent=palette primary}
+\setbeamercolor{author}{use=palette primary, parent=palette primary}
+\setbeamercolor{date}{use=palette primary, parent=palette primary}
+\setbeamercolor{institute}{use=palette primary, parent=palette primary}
+\setbeamercolor{structure}{use=palette primary, parent=palette primary}
+
+\setbeamertemplate{title}{
+  \flushleft%
+  \setstretch{.85}%
+  \inserttitle%
+  \par%
+  \vspace*{0.1em}
+ }
+ \setbeamertemplate{subtitle}{
+  \raggedright%
+  \setstretch{.85}%
+  \insertsubtitle%
+  \par%
+  \vspace*{0.5em}
+}
+
+% Title page frame
+\setbeamertemplate{title page}{
+\pgfdeclareimage[height=0.6cm]{logo}{UdeS_blanc} % Declare first Logo
+\pgfdeclareimage[height=0.45cm]{logo2}{IELab} % Declare second Logo
+  \begin{minipage}[b][\paperheight]{10cm}
+    \ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+    \vfill%
+    \ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+    \ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+    %\usebeamertemplate*{title separator} % puts a line under the title
+    \ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+    \ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+    \ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+    %\vfill%
+    \vspace*{8mm}
+    %\pgfuseimage{logo} % Use logo
+    %\newcommand\mybar{\kern1pt\rule[-\dp\strutbox]{.8pt}{.7cm}{\hspace{2mm}}\kern1pt} % White bar
+    %\textcolor{white}{\mybar{\pgfuseimage{logo2}}} % Second logo
+    %\vfill
+    \vspace*{15mm}
+  \end{minipage}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Examples
+
+%% Makes title slide with only background defined color
+  %\begin{frame}[bg]
+    %\titlepage
+  %\end{frame}
+%% Makes a title slide with background + image
+  %\begin{frame}[image]
+    %\titlepage
+  %\end{frame}
+%% Makes also a title slide with background + image
+  %\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Aire de répartition et changements climatiques:}
+\subtitle{Comment les interactions biotiques moduleront-elles la réponse?}
+%\date{\today}
+\author{Victor Cameron}
+
 \begin{document}
-  \maketitle
-  \section{First Section}
-  \begin{frame}{First Frame}
-    Hello, world!
-  \end{frame}
+
+\maketitle % make title produces formated title slide
+
+%%% keys
+%1. Le titre
+%2. Structure spéciale: Étude théorique = exploration
+%3. Pas d'hypothèse
+%4. Cette présentation a pour but de présenter mon projet
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Contexte
+
+\begin{frame}[t]{First Frame}
+  Hello, world!
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Contexte
+
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Limites et difficultés dans ce contexte d'étude}}}
+
+
+\end{frame}
+
+% % %
+
+\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+  \textbf{Objectif général:} Mieux comprendre comment les interactions biotiques affectent la réponse aux changement climatiques
+
+  \textbf{\\Objectifs spécifiques:}
+
+\end{frame}
+
+% % %
+
+\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+  \textbf{Objectif général:} Mieux comprendre comment les interactions biotiques affectent la réponse aux changement climatiques
+
+  \textbf{\\Pourquoi?}
+
+\end{frame}
+
+% % %
+
+\begin{frame}{Font feature test}
+  \begin{itemize}
+    \item Regular
+    \item \textit{Italic}
+    \item \textsc{Small Caps}
+    \item \textbf{Bold}
+    \item \textbf{\textit{Bold Italic}}
+    \item \textbf{\textsc{Bold Small Caps}}
+    \item \texttt{Monospace}
+    \item \texttt{\textit{Monospace Italic}}
+    \item \texttt{\textbf{Monospace Bold}}
+    \item \texttt{\textbf{\textit{Monospace Bold Italic}}}
+  \end{itemize}
+\end{frame}
+
+% % %
+
+\begin{frame}{Lists}
+  \begin{columns}[T,onlytextwidth]
+    \column{0.33\textwidth}
+      Items
+      \begin{itemize}
+        \item Milk \item Eggs \item Potatoes
+      \end{itemize}
+
+    \column{0.33\textwidth}
+      Enumerations
+      \begin{enumerate}
+        \item First, \item Second and \item Last.
+      \end{enumerate}
+
+    \column{0.33\textwidth}
+      Descriptions
+      \begin{description}
+        \item[PowerPoint] Meeh. \item[Beamer] Yeeeha.
+      \end{description}
+  \end{columns}
+\end{frame}
+
+% % %
+
 \end{document}
