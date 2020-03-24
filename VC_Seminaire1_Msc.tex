@@ -6,6 +6,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{setspace}
 \usepackage{xcolor}
+\usepackage{caption}
 
 %%%%%%%%%%%%%%%%%%%%%%%
 % Background setup
@@ -116,10 +117,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Aire de répartition et changements climatiques:}
+\title{Aire de distribution et changements climatiques:}
 \subtitle{Comment les interactions biotiques moduleront-elles la réponse?}
 %\date{\today}
 \author{Victor Cameron}
+
+
+
 
 \begin{document}
 
@@ -131,32 +135,124 @@
 %3. Pas d'hypothèse
 %4. Cette présentation a pour but de présenter mon projet
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Contexte
+
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Les limites de distribution}}}
+
+  Un \textbf{déplacement des aires de distribution} est attendu dans les 100 prochaines années
+
+  \begin{figure}
+  	%\includegraphics[height=.50\paperheight]{figs/mckenney.png}
+    %\caption*{ \textbf{Future enveloppe climatique de l'érable à sucre (2071-2100)}}
+  \end{figure}
+
+\end{frame}
+}
+
+%%% L'aire de distribution d'une espèce est limitée
+%%% Une connaissance des processus limitant l'aire de distribution est fondamentale pour prévoir les distributions dans le futur
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Contexte
 
-\begin{frame}[t]{First Frame}
-  Hello, world!
+{%
+\setbeamertemplate{frame footer}{}
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Les limites de distribution}}}
+
+  1. L'emplacement des limites de distribution est \textbf{sensible au climat}
+
+  \begin{figure}
+  	%\includegraphics[height=.55\paperheight]{figs/Talluto1.png}
+    %\caption*{ \textbf{Distribution présente et projetée}}
+  \end{figure}
+
 \end{frame}
+}
+
+%%% On s'attend à trouver les espèces là où le climat est favorable et absentes là où le climat est défavorable
+%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Contexte
 
-\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Limites et difficultés dans ce contexte d'étude}}}
+{%
+\setbeamertemplate{frame footer}{Talluto \textit{et al}. 2017}
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Projection des futures distributions}}}
 
+  2. On s'attend à ce que les enveloppes climatiques se \textbf{déplacent vers le nord ou vers des altitudes plus élevées} en réponse aux changements climatiques
+
+  \begin{figure}
+  	\includegraphics[height=.55\paperheight]{figs/Talluto1.png}
+    \caption*{ \textbf{Distribution présente et projetée}}
+  \end{figure}
+
+\end{frame}
+}
+
+%%% Les espèces réactives pourront suivre le déplacement de leur enveloppe climatique
+%%% Les espèces moins réactives accuseront un retard
+%%% Il a été observé que la végétation accuse un retard sur le déplacement son enveloppe climatique
+%%% Différents temps de réactions peuvent faire que des espèces qui co-occurent présentement ne co-occurent plus dans le futur
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % Contexte
+
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Difficultés reliées au contexte}}}
+
+  Les \textbf{modèles de distribution d'espèces} (SDMs) font de nombreuses suppositions:
+    \begin{itemize}
+      \item Distribution à l'équilibre avec l'enveloppe climatique;
+      \item Absence de démographie;
+      \item Absence de limite de dispersion;
+      \item Absence d'interaction biotique;
+      \item Réponse linéaire et instantannée au changement climatique.
+    \end{itemize}
 
 \end{frame}
 
+%% Les outils actuels pour prédire l'impact des changements climatiques sur la distribution des espèces sont limités par l'absence de processus écologiques fondamentaux.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % Contexte
+
+\begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Difficultés reliées au contexte}}}
+
+  %% Quand on s'intéresse au changements d'aire de répartition d'une communauté, certains processus sont à prendre en considérations:
+  Les espèces qui \textbf{co-occurent}:
+  \begin{itemize}
+    \item Ont différents temps de réponse au changement climatique;
+    \item Ne se reproduisent pas au même rythme;
+    \item N'ont pas toutes la même capacité de dispersion;
+    \item Interagissent.
+  \end{itemize}
+
+  \alert{Ces processus peuvent modifier la relation entre le climat et la distribution des espèces}
+
+\end{frame}
+
+%% Les processus peuvent avoir des conséquences inatendues sur les futures distributions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
 
-  \textbf{Objectif général:} Mieux comprendre comment les interactions biotiques affectent la réponse aux changement climatiques
+  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale et la persistance d'une espèce en intéraction avec son habitat.
 
   \textbf{\\Objectifs spécifiques:}
+  \begin{enumerate}
+    \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts du changement climatique sur la distribution des espèces;
+    \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution au changement climatique.
+    \item N'ont pas toutes la même capacité de dispersion;
+    \item Interagissent.
+  \end{enumerate}
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
@@ -167,6 +263,7 @@
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \begin{frame}{Font feature test}
