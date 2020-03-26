@@ -10,7 +10,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%
 % Background setup
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg2}{bg2} % Declare background image
+\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg2}{figs/bg2} % Declare background image
 
 \defbeamertemplate*{background canvas}{mydefault}
   {%
@@ -80,8 +80,8 @@
 
 % Title page frame
 \setbeamertemplate{title page}{
-\pgfdeclareimage[height=0.6cm]{logo}{UdeS_blanc} % Declare first Logo
-\pgfdeclareimage[height=0.45cm]{logo2}{IELab} % Declare second Logo
+%\pgfdeclareimage[height=0.6cm]{logo}{UdeS_blanc} % Declare first Logo
+%\pgfdeclareimage[height=0.45cm]{logo2}{IELab} % Declare second Logo
   \begin{minipage}[b][\paperheight]{10cm}
     \ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
     \vfill%
@@ -127,6 +127,7 @@
 
 \begin{document}
 
+%% Effect of climate change on the co-distribution of forest trees and passerine birds
 \maketitle % make title produces formated title slide
 
 %%% keys
@@ -139,14 +140,14 @@
 %%% Contexte
 
 {%
-\setbeamertemplate{frame footer}{}
+\setbeamertemplate{frame footer}{Ferrarini \textit{et al}. 2017}
 \begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Les limites de distribution}}}
 
   Un \textbf{déplacement des aires de distribution} est attendu dans les 100 prochaines années
 
   \begin{figure}
-  	%\includegraphics[height=.50\paperheight]{figs/mckenney.png}
-    %\caption*{ \textbf{Future enveloppe climatique de l'érable à sucre (2071-2100)}}
+  	\includegraphics[height=.60\paperheight]{figs/Ferrarini.png}
+    %\caption*{ \textbf{Eveloppe climatique de l'érable à sucre présente et projetée (2071-2100)}}
   \end{figure}
 
 \end{frame}
@@ -165,7 +166,7 @@
   1. L'emplacement des limites de distribution est \textbf{sensible au climat}
 
   \begin{figure}
-  	%\includegraphics[height=.55\paperheight]{figs/Talluto1.png}
+  	\includegraphics[height=.65\paperheight]{figs/bioclim.png}
     %\caption*{ \textbf{Distribution présente et projetée}}
   \end{figure}
 
@@ -179,14 +180,14 @@
 %%% Contexte
 
 {%
-\setbeamertemplate{frame footer}{Talluto \textit{et al}. 2017}
+\setbeamertemplate{frame footer}{}
 \begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Projection des futures distributions}}}
 
   2. On s'attend à ce que les enveloppes climatiques se \textbf{déplacent vers le nord ou vers des altitudes plus élevées} en réponse aux changements climatiques
 
-  \begin{figure}
-  	\includegraphics[height=.55\paperheight]{figs/Talluto1.png}
-    \caption*{ \textbf{Distribution présente et projetée}}
+  \begin{figure} % Photos de passeraux associés à divers types de forêts
+    % Paruline azurée (ou couronnée?) est associée aux érablières
+
   \end{figure}
 
 \end{frame}
@@ -198,7 +199,33 @@
 %%% Différents temps de réactions peuvent faire que des espèces qui co-occurent présentement ne co-occurent plus dans le futur
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % % Contexte
+%%% Contexte
+
+{%
+\setbeamertemplate{frame footer}{McKenney \textit{et al}. 2007, Talluto \textit{et al}. 2017}
+\begin{frame}[t]{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Difficultés reliées au contexte}}}
+
+  Les \textbf{modèles de distribution d'espèces} (SDMs) sont des modèles mathématiques qui corrèlent la \emph{distribution} d'une espèce avec des \emph{données climatiques}
+
+  \begin{columns}[]
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[height=.65\textwidth]{figs/Talluto2.png}
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[height=.65\textwidth]{figs/mckenney.png}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+}
+
+%% Les SDMs sontdes modèles mathématiques
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Contexte
 
 \begin{frame}{Contexte\hskip 1em \mdseries{\textcolor{lightgray}{Difficultés reliées au contexte}}}
 
@@ -214,6 +241,7 @@
 \end{frame}
 
 %% Les outils actuels pour prédire l'impact des changements climatiques sur la distribution des espèces sont limités par l'absence de processus écologiques fondamentaux.
+%% Def interaction: l'effet qu'une espèce  a sur le fitness d'une autre espèce (taux de croissance de population): pred-proie, habitat-utilisateur
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % % Contexte
@@ -242,13 +270,92 @@
 
   \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale et la persistance d'une espèce en intéraction avec son habitat.
 
-  \textbf{\\Objectifs spécifiques:}
+  \textbf{\\Pourquoi?}
   \begin{enumerate}
     \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts du changement climatique sur la distribution des espèces;
     \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution au changement climatique.
-    \item N'ont pas toutes la même capacité de dispersion;
-    \item Interagissent.
   \end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+{%
+\setbeamertemplate{frame footer}{Pulliam 2000, Sandoro 2008}
+\begin{frame}{Théorie \hskip 1em \mdseries{\textcolor{lightgray}{Interactions biotiques}}}
+
+Les \textbf{interactions biotiques} sont d'importantes forces modulaires des limites de distribution à \emph{petites et à grandes échelles spatiales}
+
+\begin{figure}
+  \includegraphics[height=.60\paperheight]{figs/Sandoro.png}
+  %\caption*{ \textbf{}}
+\end{figure}
+
+\end{frame}
+}
+
+%% Interaction biotiques: effet d'une espèce sur le fitness (taux de croissance) d'une autre espèce
+%% Historiquement: Conditions climatiques importantes à large échelle, et les interactions à l'échelle locale
+%% Little interest in the study of biotic interactions at large geographical scales: important need for methods to account for interactions in future predictions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+{%
+\setbeamertemplate{frame footer}{Pulliam 2000, Godsoe \textit{et al}. 2017}
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Niche}}}
+
+  %b,d --> c,e,h  (disponibilité d'habitat: montrer schéma que j'ai fait)
+  $$r(E,R) > b(E,R) - d(E,R)$$ $$\lambda (E,H) > c(E,H) - e(E,H)$$
+
+  \begin{figure}
+  	\includegraphics[height=.65\paperheight]{figs/pulliam.png}
+    %\caption*{ \textbf{}}
+  \end{figure}
+
+  \begin{figure}
+  	\includegraphics[height=.65\paperheight]{figs/godsoe.png}
+    %\caption*{ \textbf{}}
+  \end{figure}
+
+\end{frame}
+}
+
+%% Godsoe: approche les limites de distribution avec la théorie de la niche (r>b-d)
+%% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
+%% disponibilité d'habitat
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
+
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+{%
+\setbeamertemplate{frame footer}{Svenning \textit{et al}. 2014}
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Range shifts}}}
+
+  \begin{figure}
+  	\includegraphics[height=.65\paperheight]{figs/svenning.png}
+    %\caption*{ \textbf{}}
+  \end{figure}
+
+\end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Étude de cas\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+  Pour aider à relier les concepts que j'ai presenté et les objectifs que je me posés
 
 \end{frame}
 
@@ -257,9 +364,50 @@
 
 \begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
 
-  \textbf{Objectif général:} Mieux comprendre comment les interactions biotiques affectent la réponse aux changement climatiques
+  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale de la give de Bicknell et sa persistance.
 
-  \textbf{\\Pourquoi?}
+  \textbf{\\Objectifs secondaires:}
+    \begin{enumerate}
+      \item Un premier objectif faisant référence à la capacité de support de la métapopulation (effet à grande échelle)
+      \item Un deuxième pbjectif faisant référence à la dynamique de la métapop (vitesse de réaction; phase transiante)
+    \end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+  \textbf{Étapes}
+  \begin
+  {enumerate}
+    \item Schématiser de façon graphique le problème tel que j'ai fait dans cette présentation % ajouter schéma
+    \item Traduire le problème en un modèle mathématique (modèle de métapop) % équation?
+  \end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Contributions\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+  \textbf{Étapes}
+  \begin
+  {enumerate}
+    \item Schématiser de façon graphique le problème tel que j'ai fait dans cette présentation % ajouter schéma
+    \item Traduire le problème en un modèle mathématique (modèle de métapop) % équation?
+  \end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Appendice\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
+
 
 \end{frame}
 
@@ -281,6 +429,7 @@
   \end{itemize}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \begin{frame}{Lists}
@@ -305,6 +454,7 @@
   \end{columns}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \end{document}

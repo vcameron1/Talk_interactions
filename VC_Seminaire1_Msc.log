@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  23 MAR 2020 19:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  26 MAR 2020 10:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,74 +991,133 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./VC_Seminaire1_Msc.nav)
-File: bg2.pdf Graphic file (type pdf)
-<use bg2.pdf>
+File: figs/bg2.pdf Graphic file (type pdf)
+<use figs/bg2.pdf>
 Missing character: There is no ; in font nullfont!
  [1
 
-] [2
-
-] [3
-
 ]
-File: figs/Talluto1.png Graphic file (type bmp)
-<figs/Talluto1.png>
+File: figs/Ferrarini.png Graphic file (type bmp)
+<figs/Ferrarini.png>
 
-Overfull \vbox (23.44685pt too high) detected at line 192
+Overfull \vbox (8.12224pt too high) detected at line 153
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 192.
-[4
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 153.
+[2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 214.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 214.
+File: figs/bioclim.png Graphic file (type bmp)
+<figs/bioclim.png>
+
+Overfull \vbox (7.41206pt too high) detected at line 173
+ []
+
+[3
+
+] [4
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 222.
+File: figs/Talluto2.png Graphic file (type bmp)
+<figs/Talluto2.png>
+LaTeX Font Info:    Try loading font information for U+msa on input line 222.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 222.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 222.
+File: figs/mckenney.png Graphic file (type bmp)
+<figs/mckenney.png>
+ [5
+
+]
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 241.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 241.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 214.
+(Font)              for symbol `textbullet' on input line 241.
 
-[5
-
-] [6
+[6
 
 ] [7
 
 ] [8
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 282.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 282.
+File: figs/Sandoro.png Graphic file (type bmp)
+<figs/Sandoro.png>
+
+Overfull \vbox (10.25137pt too high) detected at line 295
+ []
+
+[9
+
+]
+File: figs/pulliam.png Graphic file (type bmp)
+<figs/pulliam.png>
+File: figs/godsoe.png Graphic file (type bmp)
+<figs/godsoe.png>
+
+Overfull \vbox (235.17223pt too high) detected at line 322
+ []
+
+[10
+
+] [11
+
+]
+File: figs/svenning.png Graphic file (type bmp)
+<figs/svenning.png>
+ [12
+
+] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+]
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 426.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 282.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 426.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 282.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 426.
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 282.
+(Font)              using `T1/lmss/bx/n' instead on input line 426.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 282.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 426.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 282.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 426.
 
 
 LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 282.
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 426.
 
-[9
+[18
 
-] [10
+] [19
 
 ]
 \tf@nav=\write6
@@ -1070,11 +1129,11 @@ LaTeX Font Warning: Font shape `T1/lmtt/bx/it' in size <10.95> not available
 \tf@snm=\write8
 \openout8 = `VC_Seminaire1_Msc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 310.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
  (./VC_Seminaire1_Msc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 456.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
 Package rerunfilecheck Info: File `VC_Seminaire1_Msc.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
@@ -1083,12 +1142,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36159 strings out of 492916
- 736665 string characters out of 6133346
- 807359 words of memory out of 5000000
- 39683 multiletter control sequences out of 15000+600000
- 578775 words of font info for 53 fonts, out of 8000000 for 9000
+ 36237 strings out of 492916
+ 737926 string characters out of 6133346
+ 806520 words of memory out of 5000000
+ 39740 multiletter control sequences out of 15000+600000
+ 580437 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,13n,90p,1914b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on VC_Seminaire1_Msc.xdv (10 pages, 31176 bytes).
+Output written on VC_Seminaire1_Msc.xdv (19 pages, 54496 bytes).
