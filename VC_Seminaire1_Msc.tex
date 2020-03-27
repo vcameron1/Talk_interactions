@@ -304,25 +304,58 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 {%
 \setbeamertemplate{frame footer}{Pulliam 2000, Godsoe \textit{et al}. 2017}
-\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Niche}}}
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{La niche écologique}}}
+  La \textbf{niche fondamentale} fait référence aux \emph{conditions climatiques}: là où l'espèce \emph{peut} être présente
+  \begin{equation*}
+    \underbrace{r(E)}_{\text{croissance}} > \underbrace{b(E)}_{\text{naissances}} - \underbrace{d(E)}_{\text{morts}}
+  \end{equation*}
 
-  %b,d --> c,e,h  (disponibilité d'habitat: montrer schéma que j'ai fait)
-  $$r(E,R) > b(E,R) - d(E,R)$$ $$\lambda (E,H) > c(E,H) - e(E,H)$$
+  \begin{columns}[]
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.8\textwidth]{figs/puliam1.png}
+      \end{figure}
+    \end{column}
 
-  \begin{figure}
-  	\includegraphics[height=.65\paperheight]{figs/pulliam.png}
-    %\caption*{ \textbf{}}
-  \end{figure}
-
-  \begin{figure}
-  	\includegraphics[height=.65\paperheight]{figs/godsoe.png}
-    %\caption*{ \textbf{}}
-  \end{figure}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=0.95\textwidth]{figs/godsoe1.png}
+    \end{column}
+  \end{columns}
 
 \end{frame}
 }
 
 %% Godsoe: approche les limites de distribution avec la théorie de la niche (r>b-d)
+%% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+{%
+\setbeamertemplate{frame footer}{Pulliam 2000, Godsoe \textit{et al}. 2017}
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{La niche écologique}}}
+
+  %b,d --> c,e,h  (disponibilité d'habitat: montrer schéma que j'ai fait)
+  La \textbf{niche réalisée} fait référence aux \emph{conditions climatiques et autres facteurs}: là où l'espèce \emph{est} présente
+  \begin{equation*}
+    \underbrace{r(E)}_{\text{croissance}} > \underbrace{b(E)}_{\text{naissances}} - \underbrace{d(E)}_{\text{morts}} + \underbrace{I(E)}_{\text{interactions}}
+  \end{equation*}
+
+  \begin{columns}[]
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \includegraphics[width=0.75\textwidth]{figs/pulliam2.png}
+      \end{figure}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width=.95\textwidth]{figs/godsoe2.png}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+}
+
 %% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
 %% disponibilité d'habitat
 
@@ -331,9 +364,45 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
 
+  \begin{equation*}
+    \textcolor{lightgray}{\underbrace{r(E)}_{\text{croissance}} > \underbrace{b(E)}_{\text{naissances}} - \underbrace{d(E)}_{\text{morts}}}
+  \end{equation*}
 
+  \begin{equation*}
+    \underbrace{\lambda(E)}_{\text{croissance}} > \underbrace{c(E)}_{\text{colonisations}} - \underbrace{e(E)}_{\text{extinctions}}
+  \end{equation*}
 
 \end{frame}
+
+%% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+          \frac{dP}{dt} = c(h-P) - eP
+      \end{equation*}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+        h > \frac{e}{c}
+      \end{equation*}
+    \end{column}
+  \end{columns}
+
+  \begin{figure}
+    \includegraphics[width=.60\paperheight]{figs/metapop.png}
+  \end{figure}
+
+\end{frame}
+
+%% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
+%% h: disponibilité d'habitat
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
@@ -341,6 +410,10 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 {%
 \setbeamertemplate{frame footer}{Svenning \textit{et al}. 2014}
 \begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Range shifts}}}
+
+  \begin{equation*}
+    S = 2\sqrt{rD}
+  \end{equation*}
 
   \begin{figure}
   	\includegraphics[height=.65\paperheight]{figs/svenning.png}
@@ -353,9 +426,14 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Étude de cas\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+\begin{frame}{Étude de cas\hskip 1em \mdseries{\textcolor{lightgray}{Les Appalaches}}}
 
-  Pour aider à relier les concepts que j'ai presenté et les objectifs que je me posés
+  Pour aider à relier les concepts que j'ai presenté et les objectifs que je me suis fixés
+
+  \begin{figure}
+  	\includegraphics[height=.65\paperheight]{figs/appalaches.png}
+    %\caption*{ \textbf{}}
+  \end{figure}
 
 \end{frame}
 
@@ -379,6 +457,17 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
 
+  \begin{description}
+    \item [metapopulation] $$h(T) > \frac{e(T)}{c(T)}$$
+  \end{description}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+
   \textbf{Étapes}
   \begin
   {enumerate}
@@ -392,13 +481,6 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 % % %
 
 \begin{frame}{Contributions\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
-
-  \textbf{Étapes}
-  \begin
-  {enumerate}
-    \item Schématiser de façon graphique le problème tel que j'ai fait dans cette présentation % ajouter schéma
-    \item Traduire le problème en un modèle mathématique (modèle de métapop) % équation?
-  \end{enumerate}
 
 \end{frame}
 

@@ -391,9 +391,13 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
 INPUT figs/mckenney.png
 INPUT figs/Sandoro.png
-INPUT figs/pulliam.png
-INPUT figs/godsoe.png
+INPUT figs/puliam1.png
+INPUT figs/godsoe1.png
+INPUT figs/pulliam2.png
+INPUT figs/godsoe2.png
+INPUT figs/metapop.png
 INPUT figs/svenning.png
+INPUT figs/appalaches.png
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
