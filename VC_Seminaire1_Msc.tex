@@ -379,6 +379,8 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
+{%
+\setbeamertemplate{frame footer}{Schooley and Consentino 2018}
 \begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
 
   \begin{columns}
@@ -400,6 +402,7 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
   \end{figure}
 
 \end{frame}
+}
 
 %% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
 %% h: disponibilité d'habitat
@@ -431,49 +434,86 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
   Pour aider à relier les concepts que j'ai presenté et les objectifs que je me suis fixés
 
   \begin{figure}
-  	\includegraphics[height=.65\paperheight]{figs/appalaches.png}
+  	\includegraphics[height=.65\paperheight]{figs/appalaches.png} % eg. grive et sa foret
     %\caption*{ \textbf{}}
   \end{figure}
 
 \end{frame}
+
+%% La distribution à l'échelle régionale
+%% Le passereau est dépendant des conditions climatiques et de son habitat
+%% Son habitat est en retard sur le changement climatique = mismatch
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
 \begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
 
-  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale de la give de Bicknell et sa persistance.
+  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale et la persistance de la grive de Bicknell.
 
-  \textbf{\\Objectifs secondaires:}
-    \begin{enumerate}
-      \item Un premier objectif faisant référence à la capacité de support de la métapopulation (effet à grande échelle)
-      \item Un deuxième pbjectif faisant référence à la dynamique de la métapop (vitesse de réaction; phase transiante)
-    \end{enumerate}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % %
-
-\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
-
-  \begin{description}
-    \item [metapopulation] $$h(T) > \frac{e(T)}{c(T)}$$
-  \end{description}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % %
-
-\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
-
-  \textbf{Étapes}
-  \begin
-  {enumerate}
-    \item Schématiser de façon graphique le problème tel que j'ai fait dans cette présentation % ajouter schéma
-    \item Traduire le problème en un modèle mathématique (modèle de métapop) % équation?
+  \textbf{\\Pourquoi?}
+  \begin{enumerate}
+    \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts du changement climatique sur la distribution des espèces;
+    \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution au changement climatique.
   \end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Développer un outil théorique}}}
+
+  1. Schématiser le problème
+
+$$h(T) > \frac{e(T)}{c(T)}$$
+
+  \begin{figure}
+    \only<1>{\includegraphics[height=.50\paperheight]{figs/modele1.png}}
+    \only<2>{\includegraphics[height=.50\paperheight]{figs/modele2.png}}
+    \only<3>{\includegraphics[height=.50\paperheight]{figs/modele3.png}}
+  \end{figure}
+
+\end{frame}
+
+%% L'espèce à l'échelle régionale sera présente là où le ratio est suppérieur à la disponibilité de l'habitat (sa forêt)
+%% Amène à une contraction de l'aire de distribution pour une espèce de sommet
+%% Amène à une extension de l'aire de distribution pour un espèce associée à la base
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Développer un outil théorique}}}
+
+  2. Traduire le problème en un modèle mathématique
+
+  \begin{equation*}
+    \frac{dP_i}{dt} = c(T_i) \sum{exp(-\alpha d_ij)} f(T_j,A_j)(1-P_i) - e(T_i,A_i)P_i
+  \end{equation*}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{L'impact des interactions}}}
+
+  3. Mesurer la capacité de support de la métapopulation (effet au niveau de la persistence)
+
+  % Figure du range (métapop) de l'espèce avant et après changement climatique
+
+\end{frame}
+
+%% En regardant le degré de réponse de l'habitat, l'effet des interactions sur la réponse pourra être observée sur le risque d'extinction de l'espèce apres changement climatique
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+
+\begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{L'impact des interactions}}}
+
+  4. Évaluer la phase transiante (vitesse de réaction/dynamique de la métapop; effet au niveau de sensibilité de l'espèce du fait de l'interaction)
+
+
 
 \end{frame}
 

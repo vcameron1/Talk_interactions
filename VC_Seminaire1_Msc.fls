@@ -398,6 +398,9 @@ INPUT figs/godsoe2.png
 INPUT figs/metapop.png
 INPUT figs/svenning.png
 INPUT figs/appalaches.png
+INPUT figs/modele1.png
+INPUT figs/modele2.png
+INPUT figs/modele3.png
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
