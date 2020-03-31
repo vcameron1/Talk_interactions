@@ -307,6 +307,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/textpos/textpos.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/textpos/textpos.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
@@ -364,6 +366,7 @@ INPUT figs/Ferrarini.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
 INPUT figs/bioclim.png
+INPUT figs/corridor.jpg
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT figs/Talluto2.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
@@ -404,16 +407,6 @@ INPUT figs/modele2.png
 INPUT figs/modele3.png
 INPUT figs/appalaches.png
 INPUT figs/grive.png
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmssbo10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmtti10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmtk10.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmtko10.tfm
 OUTPUT VC_Seminaire1_Msc.nav
 OUTPUT VC_Seminaire1_Msc.toc
 OUTPUT VC_Seminaire1_Msc.snm

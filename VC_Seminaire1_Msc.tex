@@ -1,7 +1,8 @@
 \documentclass[aspectratio=169]{beamer}
-\usetheme[numbering=fraction]{metropolis}           % Use metropolis theme;
+\usetheme[]{metropolis}           % Use metropolis theme;
 %\usepackage{FiraSans}
 
+\usepackage{appendixnumberbeamer}
 \usepackage[absolute,overlay]{textpos}
 \usepackage[T1]{fontenc}
 \usepackage{setspace}
@@ -38,7 +39,7 @@
    \setbeamertemplate{background canvas}[bg]%
  }
 
- \makeatletter
+\makeatletter
 \define@key{beamerframe}{image}[true]{%
   \setbeamercovered{invisible}%
   \setbeamertemplate{background canvas}[image]%
@@ -187,6 +188,7 @@
 
   \begin{figure} % Photos de passeraux associés à divers types de forêts
     % Paruline azurée (ou couronnée?) est associée aux érablières
+    \includegraphics[width=0.5\textwidth]{figs/corridor.jpg}
 
   \end{figure}
 
@@ -270,7 +272,7 @@
 
   \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale et la persistance d'une espèce en intéraction avec son habitat.
 
-  \textbf{\\Pourquoi?}
+  \textbf{\\Objectifs secondaires}
   \begin{enumerate}
     \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts du changement climatique sur la distribution des espèces;
     \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution au changement climatique.
@@ -406,7 +408,6 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \end{frame}
 
-%% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
 %% Une population est une patch individuelle, une métapopulation est un amalgame de plusieurs patchs
 %% À l'échelle régionale, la distribution d'une espèce est l'ensemble des regions où une espèce est présente
 
@@ -471,9 +472,9 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
 
-  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution régionale et la persistance de la grive de Bicknell.
+  \textbf{Objectif général:} Évaluer les impacts d'un changement climatique sur la distribution en Estrie et la persistance de la grive de Bicknell.
 
-  \textbf{\\Pourquoi?}
+  \textbf{\\Objectifs secondaires:}
   \begin{enumerate}
     \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts du changement climatique sur la distribution des espèces;
     \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution au changement climatique.
@@ -507,16 +508,14 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
 \begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{Développer un outil théorique}}}
 
-  2. Traduire le problème en un modèle mathématique de métapopulation
-
-  L'aire des patch, la distance inter-patch, le climat dans les patchs
+  2. Traduire le problème en un \textbf{modèle mathématique} de métapopulation qui tiendra compte de \emph{l'aire} des patchs, de \emph{la distance inter-patch} et \emph{du climat} dans les patchs
 
   %\begin{equation*}
   %  \frac{dP_i}{dt} = c(T_i) \sum{exp(-\alpha d_ij)} f(T_j,A_j)(1-P_i) - e(T_i,A_i)P_i
   %\end{equation*}
 
   \begin{figure}
-    \includegraphics[height=.50\paperheight]{figs/appalaches.png}
+    \includegraphics[height=.55\paperheight]{figs/appalaches.png}
   \end{figure}
 
 \end{frame}
@@ -531,12 +530,13 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
 \begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{L'impact des interactions}}}
 
-  3. Mesurer la capacité de support de la métapopulation (effet au niveau de la persistence)
+  3. Mesurer la \textbf{capacité de support} de la métapopulation
 
   % Figure du range (métapop) de l'espèce avant et après changement climatique
 
 \end{frame}
 
+%% Objectif: mesurer l'impact sur l'ampleur de la réponse à l'échelle régionale (à l'échelle de la métapop)
 %% En regardant le degré de réponse de l'habitat, l'effet des interactions sur la réponse pourra être observée sur le risque d'extinction de l'espèce apres changement climatique
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -544,23 +544,47 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
 \begin{frame}{Approche\hskip 1em \mdseries{\textcolor{lightgray}{L'impact des interactions}}}
 
-  4. Évaluer la phase transiante (vitesse de réaction/dynamique de la métapop; effet au niveau de sensibilité de l'espèce du fait de l'interaction)
+  4. Mesurer la \textbf{vitesse de réaction} de la métapopulation
 
 
 
 \end{frame}
 
+%% Objectif: mesurer l'impact sur la dynamique de la réponse; de la sensibilité de l'espèce auc c.c.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Contributions\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+\begin{frame}{Contributions\hskip 1em \mdseries{\textcolor{lightgray}{}}}
+
+  Mon travail contribuera à:
+
+  \begin{itemize}
+    \item Une meilleure compréhension de \textbf{l'effet des interactions} sur la réponse des espèces face au changement climatique;
+    \item Produira des \textbf{hypothèses} qui pourront être vérifiées sur le terrain;
+    \item Aidera Corridor Appalachien à \textbf{documenter le futur} des sommets de conifères et de certaines espèces;
+  \end{itemize}
 
 \end{frame}
 
+%% Mon travail amènera une meilleure compréhension de l'effet des interactions sur la réponse des espèces face au changement climatique qui était ingnorée des modèles de distribution d'espèce classiques alors qu'il y a d'importantes preuves de leur effet.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Appendice\hskip 1em \mdseries{\textcolor{lightgray}{Modèle mathématique}}}
+\begin{frame}[standout]
+
+  Questions?
+
+\end{frame}
+
+%% Mon travail amènera une meilleure compréhension de l'effet des interactions sur la réponse des espèces face au changement climatique qui était ingnorée des modèles de distribution d'espèce classiques alors qu'il y a d'importantes preuves de leur effet.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % %
+\appendix
+
+\begin{frame}{Appendice\hskip 1em \mdseries{\textcolor{lightgray}{Modèle mathématique}}}{Backup slides}
 
   Modèle spatiallement explicite de métapopulation
 
@@ -575,49 +599,5 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % %
-
-\begin{frame}{Font feature test}
-  \begin{itemize}
-    \item Regular
-    \item \textit{Italic}
-    \item \textsc{Small Caps}
-    \item \textbf{Bold}
-    \item \textbf{\textit{Bold Italic}}
-    \item \textbf{\textsc{Bold Small Caps}}
-    \item \texttt{Monospace}
-    \item \texttt{\textit{Monospace Italic}}
-    \item \texttt{\textbf{Monospace Bold}}
-    \item \texttt{\textbf{\textit{Monospace Bold Italic}}}
-  \end{itemize}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % %
-
-\begin{frame}{Lists}
-  \begin{columns}[T,onlytextwidth]
-    \column{0.33\textwidth}
-      Items
-      \begin{itemize}
-        \item Milk \item Eggs \item Potatoes
-      \end{itemize}
-
-    \column{0.33\textwidth}
-      Enumerations
-      \begin{enumerate}
-        \item First, \item Second and \item Last.
-      \end{enumerate}
-
-    \column{0.33\textwidth}
-      Descriptions
-      \begin{description}
-        \item[PowerPoint] Meeh. \item[Beamer] Yeeeha.
-      \end{description}
-  \end{columns}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % %
 
 \end{document}
