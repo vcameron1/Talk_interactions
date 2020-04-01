@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1585695934 "VC_Seminaire1_Msc.xdv" "VC_Seminaire1_Msc.pdf" "VC_Seminaire1_Msc" 1585703862
-  "VC_Seminaire1_Msc.xdv" 1585695934 83340 d7fd2dc4e49c7d92da6bd82e8f6c52f7 "xelatex"
+["xdvipdfmx"] 1585751058 "VC_Seminaire1_Msc.xdv" "VC_Seminaire1_Msc.pdf" "VC_Seminaire1_Msc" 1585751086
+  "VC_Seminaire1_Msc.xdv" 1585751058 83372 ecd35b9d611d64bf31a8c34714f7e186 "xelatex"
   (generated)
   "VC_Seminaire1_Msc.pdf"
-["xelatex"] 1585695932 "VC_Seminaire1_Msc.tex" "VC_Seminaire1_Msc.xdv" "VC_Seminaire1_Msc" 1585703862
-  "/dev/null" 1585703862 0 d41d8cd98f00b204e9800998ecf8427e ""
+["xelatex"] 1585751055 "VC_Seminaire1_Msc.tex" "VC_Seminaire1_Msc.xdv" "VC_Seminaire1_Msc" 1585751086
+  "/dev/null" 1585751086 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -209,10 +209,10 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/xetex/xelatex.fmt" 1557342089 3751069 3e95e8a30a2d43fc44f2c90c78c41394 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "VC_Seminaire1_Msc.aux" 1585695934 5510 28a310fb944fa9c5561946cf5ef95de9 "xelatex"
-  "VC_Seminaire1_Msc.nav" 1585695934 2976 efbfcfa66decb1b26cc8252374e8bb79 "xelatex"
-  "VC_Seminaire1_Msc.out" 1585695934 41 d9694bc855d0c50ccad6b8d6dedf7609 "xelatex"
-  "VC_Seminaire1_Msc.tex" 1585695932 25111 c0c47fd96e9b978ac7e614b2855e7be4 ""
+  "VC_Seminaire1_Msc.aux" 1585751058 5510 28a310fb944fa9c5561946cf5ef95de9 "xelatex"
+  "VC_Seminaire1_Msc.nav" 1585751058 2976 efbfcfa66decb1b26cc8252374e8bb79 "xelatex"
+  "VC_Seminaire1_Msc.out" 1585751058 41 d9694bc855d0c50ccad6b8d6dedf7609 "xelatex"
+  "VC_Seminaire1_Msc.tex" 1585751055 24323 4cdd15ead6f9a37737125dfaea997550 ""
   "beamercolorthememetropolis.sty" 1584729815 3961 a26340357813f2d570838e33aec7d93b ""
   "beamerfontthememetropolis.sty" 1584729815 11439 631ed428006d7cf3f27ae648004ca47f ""
   "beamerinnerthememetropolis.sty" 1584729815 9093 b3363c49bd2ed0be1fd18f75a61056fe ""
@@ -239,9 +239,9 @@
   "figs/svenning.png" 1584897236 238661 716e32ac3ac0d62b1c70ee1acd3093ec ""
   (generated)
   "VC_Seminaire1_Msc.toc"
-  "VC_Seminaire1_Msc.out"
-  "VC_Seminaire1_Msc.log"
   "VC_Seminaire1_Msc.snm"
-  "VC_Seminaire1_Msc.aux"
-  "VC_Seminaire1_Msc.xdv"
   "VC_Seminaire1_Msc.nav"
+  "VC_Seminaire1_Msc.log"
+  "VC_Seminaire1_Msc.xdv"
+  "VC_Seminaire1_Msc.out"
+  "VC_Seminaire1_Msc.aux"
