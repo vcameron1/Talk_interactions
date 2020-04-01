@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  31 MAR 2020 10:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  31 MAR 2020 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -997,79 +997,70 @@ Missing character: There is no ; in font nullfont!
  [1
 
 ]
-File: figs/Ferrarini.png Graphic file (type bmp)
-<figs/Ferrarini.png>
-
-Overfull \vbox (5.37224pt too high) detected at line 154
- []
-
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 154.
-[2
-
-]
-File: figs/bioclim.png Graphic file (type bmp)
-<figs/bioclim.png>
+File: figs/corridor.jpg Graphic file (type bmp)
+<figs/corridor.jpg>
 
 Overfull \vbox (4.66206pt too high) detected at line 174
  []
 
-[3
+[2
 
 ]
-File: figs/corridor.jpg Graphic file (type bmp)
-<figs/corridor.jpg>
- [4
+File: figs/Ferrarini.png Graphic file (type bmp)
+<figs/Ferrarini.png>
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 194.
+ [3
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 223.
 File: figs/Talluto2.png Graphic file (type bmp)
 <figs/Talluto2.png>
-LaTeX Font Info:    Try loading font information for U+msa on input line 224.
+LaTeX Font Info:    Try loading font information for U+msa on input line 223.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 224.
+LaTeX Font Info:    Try loading font information for U+msb on input line 223.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 223.
 File: figs/mckenney.png Graphic file (type bmp)
 <figs/mckenney.png>
- [5
+ [4
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 243.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 243.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 242.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 242.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 243.
+(Font)              for symbol `textbullet' on input line 242.
 
-[6
+[5
+
+] [6
 
 ] [7
-
-] [8
 
 ]
 File: figs/Sandoro.png Graphic file (type bmp)
 <figs/Sandoro.png>
 
-Overfull \vbox (7.50137pt too high) detected at line 297
+Overfull \vbox (7.89233pt too high) detected at line 299
  []
 
-[9
+[8
 
 ]
 File: figs/puliam1.png Graphic file (type bmp)
 <figs/puliam1.png>
 File: figs/godsoe1.png Graphic file (type bmp)
 <figs/godsoe1.png>
- [10
+ [9
 
 ]
 File: figs/pulliam2.png Graphic file (type bmp)
@@ -1077,10 +1068,15 @@ File: figs/pulliam2.png Graphic file (type bmp)
 File: figs/godsoe2.png Graphic file (type bmp)
 <figs/godsoe2.png>
 
-Overfull \vbox (4.16924pt too high) detected at line 358
+Overfull \vbox (6.52809pt too high) detected at line 360
  []
 
-[11
+[10
+
+]
+File: figs/metapop.png Graphic file (type bmp)
+<figs/metapop.png>
+ [11
 
 ]
 File: figs/metapop.png Graphic file (type bmp)
@@ -1093,7 +1089,7 @@ File: figs/metapop.png Graphic file (type bmp)
 File: figs/metapop2.png Graphic file (type bmp)
 <figs/metapop2.png>
 
-Overfull \vbox (9.14561pt too high) detected at line 425
+Overfull \vbox (2.3346pt too high) detected at line 434
  []
 
 [14
@@ -1101,11 +1097,7 @@ Overfull \vbox (9.14561pt too high) detected at line 425
 ]
 File: figs/appalaches.png Graphic file (type bmp)
 <figs/appalaches.png>
-
-Overfull \vbox (4.66206pt too high) detected at line 445
- []
-
-[15
+ [15
 
 ] [16
 
@@ -1113,7 +1105,7 @@ Overfull \vbox (4.66206pt too high) detected at line 445
 File: figs/modele1.png Graphic file (type bmp)
 <figs/modele1.png>
 
-Overfull \vbox (18.60172pt too high) detected at line 481
+Overfull \vbox (18.60172pt too high) detected at line 488
  []
 
 [17
@@ -1122,7 +1114,7 @@ Overfull \vbox (18.60172pt too high) detected at line 481
 File: figs/modele2.png Graphic file (type bmp)
 <figs/modele2.png>
 
-Overfull \vbox (18.60172pt too high) detected at line 481
+Overfull \vbox (18.60172pt too high) detected at line 488
  []
 
 [18
@@ -1131,7 +1123,7 @@ Overfull \vbox (18.60172pt too high) detected at line 481
 File: figs/modele3.png Graphic file (type bmp)
 <figs/modele3.png>
 
-Overfull \vbox (18.60172pt too high) detected at line 481
+Overfull \vbox (18.60172pt too high) detected at line 488
  []
 
 [19
@@ -1139,7 +1131,11 @@ Overfull \vbox (18.60172pt too high) detected at line 481
 ]
 File: figs/appalaches.png Graphic file (type bmp)
 <figs/appalaches.png>
- [20
+
+Overfull \vbox (15.81177pt too high) detected at line 511
+ []
+
+[20
 
 ] [21
 
@@ -1147,19 +1143,26 @@ File: figs/appalaches.png Graphic file (type bmp)
 
 ] [23
 
-] [24
+]
+File: figs/corridor.jpg Graphic file (type bmp)
+<figs/corridor.jpg>
+
+Overfull \vbox (0.48329pt too high) detected at line 603
+ []
+
+[24
 
 ] [25
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 591.
+(hyperref)                removing `\translate ' on input line 620.
 
 File: figs/grive.png Graphic file (type bmp)
 <figs/grive.png>
 
-Overfull \vbox (15.86423pt too high) detected at line 605
+Overfull \vbox (15.86423pt too high) detected at line 634
  []
 
 [26
@@ -1168,6 +1171,13 @@ Overfull \vbox (15.86423pt too high) detected at line 605
 File: figs/svenning.png Graphic file (type bmp)
 <figs/svenning.png>
  [27
+
+]
+File: figs/fut_range.pdf Graphic file (type pdf)
+<use figs/fut_range.pdf>
+ [28
+
+] [29
 
 ]
 \tf@nav=\write6
@@ -1179,11 +1189,11 @@ File: figs/svenning.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `VC_Seminaire1_Msc.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 624.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 624.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 685.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 685.
  (./VC_Seminaire1_Msc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 624.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 624.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 685.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 685.
 Package rerunfilecheck Info: File `VC_Seminaire1_Msc.out' has not changed.
 (rerunfilecheck)             Checksum: D9694BC855D0C50CCAD6B8D6DEDF7609.
 
@@ -1192,12 +1202,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 36232 strings out of 492916
- 737554 string characters out of 6133346
- 806901 words of memory out of 5000000
- 39732 multiletter control sequences out of 15000+600000
- 573564 words of font info for 63 fonts, out of 8000000 for 9000
+ 36247 strings out of 492916
+ 737861 string characters out of 6133346
+ 806921 words of memory out of 5000000
+ 39747 multiletter control sequences out of 15000+600000
+ 576334 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,13n,89p,1896b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,13n,89p,1896b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on VC_Seminaire1_Msc.xdv (27 pages, 75776 bytes).
+Output written on VC_Seminaire1_Msc.xdv (29 pages, 83340 bytes).
