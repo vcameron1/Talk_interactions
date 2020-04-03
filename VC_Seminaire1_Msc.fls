@@ -392,9 +392,10 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
 INPUT figs/mckenney.png
+INPUT figs/monarque.jpg
 INPUT figs/Sandoro.png
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
-INPUT figs/puliam1.png
+INPUT figs/pulliam1.png
 INPUT figs/godsoe1.png
 INPUT figs/pulliam2.png
 INPUT figs/godsoe2.png
