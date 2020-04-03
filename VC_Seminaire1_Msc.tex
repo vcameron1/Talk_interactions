@@ -136,6 +136,8 @@
 %2. En écologie, spécialement avec les c.c. nous sommes intéressés à comprendre ce qui détermine la distribution des espèces
 %3. L'aire de distribution d'une espèce est limitée
 %4. Une connaissance des processus limitant l'aire de distribution est fondamentale pour prévoir les distributions dans le futur
+%5. Structure spéciale: Étude théorique = descriptif
+%6. Pas d'hypothèse
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Contexte
@@ -175,7 +177,7 @@
 }
 
 %%% On s'attend à trouver les espèces là où le climat est favorable et absentes là où le climat est défavorable
-%%%
+%%% La distribution est l'espace géographique où l'espèce se trouve
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Contexte
@@ -236,7 +238,7 @@
       \item Absence de démographie;
       \item Absence de limite de dispersion;
       \item Absence d'interaction entre espèces;
-      \item Réponse linéaire et instantannée aux changements climatiques.
+      \item Réponse linéaire et instantanée aux changements climatiques.
     \end{itemize}
 
 \end{frame}
@@ -267,9 +269,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{}}}
 
-  \textbf{Objectif général:} Évaluer les impacts des changements climatiques sur la distribution régionale d'une espèce en interaction avec son habitat.
+  \textbf{Objectif général:} Évaluer les impacts des changements climatiques sur la distribution régionale d'une espèce en interaction avec un habitat en modification.
 
   \textbf{\\Objectifs secondaires:}
   \begin{enumerate}
@@ -279,8 +281,9 @@
 
 \end{frame}
 
-%% Structure spéciale: Étude théorique = exploration
-%% Pas d'hypothèse
+%% Interaction: L'habitat --> arbre est une espèce
+%% Eg. Monarque a besoin de l'asclépiade(habitat); ne peut pas se déplacer
+%% Eg. Tamias - chêne; ail des bois - érables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
@@ -360,6 +363,7 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 }
 
 %% Besoin d'une perspective régionale (\lambda>c-e --> suget de ma maitrise (montrer les schémas que j'ai fait)
+%% Ajout de processus biotiques (vs. abiotiques)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
@@ -404,12 +408,16 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
 
+  \begin{description}
+    \item[E*:] ensemble des conditions environementales à la limite de distribtution
+  \end{description}
+
   \begin{equation*}
-    \textcolor{lightgray}{\underbrace{b(E)}_{\text{naissances}} = \underbrace{d(E)}_{\text{mortalité}}}
+    \textcolor{lightgray}{\underbrace{b(E^*)}_{\text{naissances}} - \underbrace{d(E^*)}_{\text{mortalité}} = 0}
   \end{equation*}
 
   \begin{equation*}
-    \underbrace{c(E)}_{\text{colonisations}} * \underbrace{h(E)}_{\text{disponibilité d'habitat}} = \underbrace{e(E)}_{\text{extinctions}}
+    \underbrace{c(E^*)}_{\text{colonisations}} * \underbrace{h(E^*)}_{\text{disponibilité d'habitat}} - \underbrace{e(E^*)}_{\text{extinctions}} = 0
   \end{equation*}
 
 \end{frame}
@@ -421,7 +429,7 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 
 \begin{frame}{Théorie\hskip 1em \mdseries{\textcolor{lightgray}{Métapopulations}}}
 
-  La \textbf{capacité de support} est une mesure de la structure de l'habitat, c'est un proxy de la \emph{viabilité}
+  La \textbf{capacité de métapopulation} est une mesure de la structure de l'habitat, c'est un proxy de la \emph{viabilité}
 
   \begin{figure}
     \includegraphics[width=.60\paperheight]{figs/metapop2.png}
@@ -437,12 +445,36 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Étude de cas\hskip 1em \mdseries{\textcolor{lightgray}{Les Appalaches}}}
+\begin{frame}{Étude de cas\hskip 1em \mdseries{\textcolor{lightgray}{Les Appalaches et la paruline rayée}}}
 
-  \begin{figure}
-  	\includegraphics[height=.65\paperheight]{figs/appalaches.png} % eg. grive et sa foret
-    %\caption*{ \textbf{}}
-  \end{figure}
+\begin{columns}
+  \begin{column}{0.6\textwidth}
+    \begin{figure}
+    	\includegraphics[height=.65\paperheight]{figs/appalaches.png} % eg. grive et sa foret
+      %\caption*{ \textbf{}}
+    \end{figure}
+  \end{column}
+
+  \begin{column}{0.4\textwidth}
+    %\begin{columns}
+    %  \begin{column}{0.5\textwidth}
+        \begin{figure}
+        	\includegraphics[height=0.25\textheight]{figs/paruline_rayée.jpg}
+        \end{figure}
+    %  \end{column}
+    %  \begin{column}{0.5\textwidth}
+    %    \begin{figure}
+    %	    \includegraphics[height=0.23\textheight]{figs/grive_des_bois.jpg}
+    %    \end{figure}
+    %  \end{column}
+    %\end{columns}
+
+    \begin{figure}
+    	\includegraphics[height=0.45\textheight]{figs/corridor.jpg}
+    \end{figure}
+  \end{column}
+
+\end{columns}
 
 \end{frame}
 
@@ -453,13 +485,13 @@ Les \textbf{interactions biotiques} sont d'importantes forces modulaires des lim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % % %
 
-\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{Subtitle}}}
+\begin{frame}{Objectifs\hskip 1em \mdseries{\textcolor{lightgray}{}}}
 
-  \textbf{Objectif général:} Évaluer les impacts des changements climatiques sur la distribution en Estrie de la grive de Bicknell.
+  \textbf{Objectif général:} Évaluer les impacts des changements climatiques sur la distribution d'espèces associées à un habitat en modification telle que la \emph{paruline rayée}.
 
-  \textbf{\\Objectifs secondaires:}
+  \textbf{\\Objectifs spécifiques:}
   \begin{enumerate}
-    \item Développer un nouvel outil théorique pour améliorer la prédiction des impacts des changements climatiques sur la distribution de la grive de Bicknell;
+    \item Développer un outil théorique pour améliorer la prédiction des impacts des changements climatiques sur la distribution d'espèces associées à un habitat en modification;
     \item Évaluer l'impact des interactions biotiques sur la réaction des aires de distribution aux changements climatiques.
   \end{enumerate}
 
@@ -519,7 +551,7 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
   2. Traduire le problème en un \textbf{modèle de métapopulation} qui tiendra compte de \emph{la disponibilité d'habitat}, de \emph{la structure du paysage} et \emph{du climat}.
 
-  3. Mesurer la \textbf{capacité de support} de la métapopulation.
+  3. Mesurer la \textbf{capacité de métapopulation}.
 
   % Figure du range (métapop) de l'espèce avant et après changements climatiques
 
@@ -537,7 +569,7 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
   2. Traduire le problème en un \textbf{modèle de métapopulation} qui tiendra compte de \emph{la disponibilité d'habitat}, de \emph{la structure du paysage} et \emph{du climat}.
 
-  3. Mesurer la \textbf{capacité de support} de la métapopulation.
+  3. Mesurer la \textbf{capacité de métapopulation}.
 
   4. Mesurer la \textbf{vitesse de réaction} de la métapopulation
 
@@ -553,7 +585,7 @@ $$h(T) > \frac{e(T)}{c(T)}$$
   Mon travail contribuera à:
 
   \begin{itemize}
-    \item Une meilleure compréhension de \textbf{l'effet des interactions} sur la réponse des espèces face au changements climatiques;
+    \item Une meilleure compréhension de \textbf{l'effet des interactions} sur la réponse des espèces face aux changements climatiques;
     \item Produira des \textbf{hypothèses} qui pourront être vérifiées sur le terrain;
     \item Aidera Corridor Appalachien à \textbf{documenter le futur} des sommets de conifères et de certaines espèces.
   \end{itemize}
@@ -574,7 +606,7 @@ $$h(T) > \frac{e(T)}{c(T)}$$
       Dominique Gravel
       \par
       \vspace{1em}
-      \textbf{Commité de conseillers}
+      \textbf{Comité d'encadrement}
       Mark Vellend
 
       Marc Bélisle
@@ -631,12 +663,15 @@ $$h(T) > \frac{e(T)}{c(T)}$$
 
 {%
 \setbeamertemplate{frame footer}{Svenning \textit{et al}. 2014}
-\begin{frame}{Appendice\hskip 1em \mdseries{\textcolor{lightgray}{Range shifts}}}
+\begin{frame}{Appendice\hskip 1em \mdseries{\textcolor{lightgray}{Réactivité}}}
 
-  \begin{figure}
-  	\includegraphics[height=.7\paperheight]{figs/svenning.png}
-    %\caption*{ \textbf{}}
-  \end{figure}
+  \begin{description}
+    \item[S:] réactivité (vitesse) de l'espèce aux changements climatiques
+  \end{description}
+
+  \begin{equation*}
+  	S = 2*\sqrt{rD}
+  \end{equation*}
 
 \end{frame}
 }
